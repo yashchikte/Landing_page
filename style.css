@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.yash{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(26, 194, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yash i{
+    margin: 0 5px;
+}
+.yash a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    background:orangered;
+    border-radius: 5px;
+    
+}
+.anshul{
+    width:100%;
+    height:80px;
+    background:transparent;
+    color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 70px;
+    
+}
+.logo img{
+    width: 250px;
+    padding: 40px;
+    display: flex;
+    position: absolute;
+    margin: -65px;
+
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding:10px 20px;
+    display: inline-block;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7)85%,rgb(131, 186, 200)), url('Truck\ de.jpg');
+    background-size: 100% 100%;
+}
+.text{
+    color: white;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 3em;
+    font-family: 'Black Ops One', cursive;
+}
+.text p{
+    font-size: 20px;
+    margin: 40px 0;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+.text a:hover{
+   color: rgb(0, 0, 0);
+   font-size: 1.08em;
+ 
+}
